@@ -37,10 +37,11 @@ yesBtn.addEventListener("click", () => {
       Nos vemos mañana, rumbo a Guanajuato 😘
     </div>
     <button id="photo-btn">Ver foto</button>
-    <audio autoplay loop>
-      <source src="pielcanela.mp3" type="audio/mpeg">
-    </audio>
   `;
+
+  // Iniciar música
+  const music = document.getElementById("bg-music");
+  music.play();
 
   // Aplicar estilo al botón nuevo (igual que el de NO)
   const photoBtn = document.getElementById("photo-btn");
@@ -66,10 +67,7 @@ yesBtn.addEventListener("click", () => {
   // Acción del botón: reemplazar mensaje por foto
   photoBtn.addEventListener("click", () => {
     root.innerHTML = `
-      <img src="foto.jpg" alt="Foto especial" style="max-width:80%; border-radius:15px;">
-      <audio autoplay loop>
-        <source src="piel-canela.mp3" type="audio/mpeg">
-      </audio>
+      <img src="foto.jpg" alt="Foto especial" style="max-width:60%; border-radius:15px;">
     `;
   });
 
