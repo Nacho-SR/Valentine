@@ -36,5 +36,22 @@ yesBtn.addEventListener("click", () => {
     <div style="font-size:20px; color: #525252; font-weight:bold;">
       Nos vemos mañana, rumbo a Guanajuato 😘
     </div>
+    <audio autoplay loop>
+      <source src="pielcanela.mp3" type="audio/mpeg">
+    </audio>
   `;
+
+  // Generar corazones cada medio segundo
+  setInterval(() => {
+    const heart = document.createElement("div");
+    heart.className = "heart";
+    heart.textContent = "💖";
+    heart.style.left = Math.random() * window.innerWidth + "px";
+    document.body.appendChild(heart);
+
+    // Eliminar corazón después de animación
+    setTimeout(() => {
+      heart.remove();
+    }, 5000);
+  }, 500);
 });
