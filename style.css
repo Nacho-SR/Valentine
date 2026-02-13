@@ -14,20 +14,36 @@ body {
 
 button {
   margin: 10px;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
+  padding: 12px 24px;
+  border: 2px solid;
+  border-radius: 25px;
   cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: white;
+  transition: all 0.3s ease;
 }
 
+/* Botón YES (verde suave) */
 #yes-btn {
-  background-color: green;
-  color: white;
-  font-size: 16px;
+  color: #4CAF50; /* verde suave */
+  border-color: #4CAF50;
 }
 
-#no-btn {
-  background-color: red;
+#yes-btn:hover,
+#yes-btn:active {
+  background-color: #4CAF50;
   color: white;
-  font-size: 16px;
+}
+
+/* Botón NO (rojo suave) */
+#no-btn {
+  color: #E57373; /* rojo suave */
+  border-color: #E57373;
+}
+
+#no-btn:hover,
+#no-btn:active {
+  background-color: #E57373;
+  color: white;
 }
