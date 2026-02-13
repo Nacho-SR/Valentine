@@ -1,11 +1,11 @@
 const NO_PHRASES = [
   "No 💔",
-  "Pretty please? 🥺",
-  "But we'd be so cute together! 💕",
-  "One more chance, pookie?",
-  "Don't break my heart :(",
-  "What about a maybe?",
-  "Please don't do this to me, I'm fragile",
+  "Porfis? 🥺",
+  "Pero si nos amamos tanto! 💕",
+  "En verdad?",
+  "Tite :(",
+  "No lo quieres pensar un poquito?",
+  "Ya di que si moderfaker 😩",
 ];
 
 let noClicks = 0;
