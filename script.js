@@ -33,5 +33,8 @@ yesBtn.addEventListener("click", () => {
     <div style="font-size:48px; color:pink; font-weight:bold;">
       Yay!!! 💖🎉
     </div>
+    <div style="font-size:20px; color: #525252; font-weight:bold;">
+      Nos vemos mañana, rumbo a Guanajuato 😘
+    </div>
   `;
 });
